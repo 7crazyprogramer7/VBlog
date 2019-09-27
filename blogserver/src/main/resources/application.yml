@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: gxl
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/vueblog2?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+#    schema:
+#      - classpath:vueblog.sql
+#    initialization-mode: always
+mybatis:
+  config-location: classpath:/mybatis-config.xml
+
+server:
+  port: 8081
+
+logging:
+  level: info
+
+

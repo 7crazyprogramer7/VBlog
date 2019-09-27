@@ -2,10 +2,6 @@
 Date: 2017-12-26 18:36:12
 */
 
-CREATE DATABASE `vueblog2` DEFAULT CHARACTER SET utf8;
-
-USE `vueblog2`;
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
